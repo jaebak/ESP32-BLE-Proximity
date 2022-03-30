@@ -1,0 +1,21 @@
+#######################################
+# Syntax Coloring Map For ESP32 BLE Proximity
+#######################################
+# Class
+#######################################
+
+BleProximity	KEYWORD1
+
+#######################################
+# Methods and Functions
+#######################################
+
+begin	        KEYWORD2
+isConnected	  KEYWORD2
+requestRssi	  KEYWORD2
+isRssiValid	  KEYWORD2
+getRssi	      KEYWORD2
+
+#######################################
+# Constants
+#######################################
