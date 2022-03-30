@@ -4,13 +4,17 @@ A library that measures the Received Signal Strength Indicator (RSSI) of the con
 The RSSI can be used to measure the distance from the ESP32 to the connected BLE device.
 
 The code was developed by referencing the [ESP32-BLE-Keyboard library](https://github.com/T-vK/ESP32-BLE-Keyboard) 
-and a [post from MelodyApril](https://community.appinventor.mit.edu/t/arduino-distance-meassuring-through-bluetooth-low-energy-signal-strength-rssi-project/24830)
+and a [post from MelodyApril](https://community.appinventor.mit.edu/t/arduino-distance-meassuring-through-bluetooth-low-energy-signal-strength-rssi-project/24830).
+
+The library was tested with a ESP32 DOIT DEVKIT V1 board and a iPhone X.
 
 ## Installation
 - Download this library as a zip file.
 - In Arduino IDE, press "Sketch" -> "Include Library" -> "Add .ZIP Library..." and select the zip file.
 
 ## Example of using the library
+
+This example prints the RSSI of the connected BLE device.
 
 ``` C++
 #include "BleProximity.h"
